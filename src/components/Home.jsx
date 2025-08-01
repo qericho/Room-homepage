@@ -1,5 +1,5 @@
 import BackGround from '../assets/images/desktop-image-hero-1.jpg';
-import About_Img_1 from '../assets/images/desktop-image-hero-3.jpg';
+import About_Img_1 from '../assets/images/image-about-dark.jpg';
 import About_Img_2 from '../assets/images/image-about-light.jpg';
 import Arrow from '../assets/images/icon-arrow.svg';
 import Btn from './Button/Btn';
@@ -19,7 +19,7 @@ const Home = () => {
                             <Btn />
                         </div>
                     </div>
-                    <div className="flex flex-col justify-center p-10 lg:p-15 gap-y-5 lg:gap-y-8 bg-[var(--color-white)] text-[var(--color-black)] w-full lg:w-[70%] h-full lg:h-130 relative">
+                    <div className="flex flex-col justify-center p-5 lg:p-15 gap-y-5 lg:gap-y-8 bg-[var(--color-white)] text-[var(--color-black)] w-full lg:w-[70%] h-full lg:h-130 relative">
                         <h1 className="text-4xl font-bold">
                             Discover innovative ways to decorate
                         </h1>
@@ -49,7 +49,7 @@ const Home = () => {
                             alt=""
                         />
                     </div>
-                    <div className="w-full h-full lg:h-100 flex flex-col justify-center bg-white text-[var(--color-gray-600)] lg:p-15 p-10 space-y-2">
+                    <div className="w-full h-full lg:h-100 flex flex-col justify-center bg-white text-[var(--color-gray-600)] lg:p-15 p-5 space-y-2">
                         <h2 className="text-2xl tracking-[5px] uppercase text-[var(--color-black)] font-medium">
                             About Our Furniture
                         </h2>

@@ -55,18 +55,18 @@ const Nav = () => {
             {/* Mobile Nav */}
 
             <div >
-                <div className='lg:hidden absolute top-5 left-1/2 -translate-x-1/2 z-999'>
+                <div className='lg:hidden absolute top-5 left-1/2 -translate-x-1/2 z-1'>
                     <img className='w-[80px] cursor-pointer'
                         src={Logo} alt="logo" />
                 </div>
                 <span onClick={handleOpen}
-                    className='lg:hidden flex absolute top-5 left-5 z-10'>
+                    className='lg:hidden flex absolute top-5 left-5 z-1'>
                     <img className='w-[20px] cursor-pointer'
-                        src={Bar} alt="logo" />
+                        src={Bar} />
                 </span>
                 <div className={`${open ? "top-0" : "top-[-900px] "} 
                  lg:hidden absolute bg-[var(--color-white)] z-11 w-full h-20`}>
-                    <ul className='h-full flex items-center justify-center gap-10 font-semibold relative'>
+                    <ul className='px-2 lg:px-10 h-full flex items-center justify-end gap-5 font-semibold relative'>
                         <span onClick={handleOpen}
                             className='absolute top-8 left-5 cursor-pointer'>
                             <img src={CloseBar} />
